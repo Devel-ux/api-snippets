@@ -3,12 +3,12 @@
 from twilio.rest import Client
 
 # Find these values at https://twilio.com/user/account
-account_sid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-auth_token = "your_auth_token"
+account_sid = "AC17d71ab004573f3a9e914621ae22f3bb"
+auth_token = "e1d4b1520e02d11b53dbfc65de293d1f"
 
 client = Client(account_sid, auth_token)
 
 client.api.account.messages.create(
-    to="+12316851234",
-    from_="+15555555555",
-    body="Hello there!")
+    to="+7706534954",
+    from_="+2677133350",
+    body="Your order has been placed (Your order ID is 2495830473) ")
